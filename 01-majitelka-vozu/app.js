@@ -30,3 +30,7 @@ document.querySelector("#znacka").innerHTML = znacka;
 
 const spz = auto.spz;
 document.querySelector("#spz").innerHTML = spz;
+
+let odstavec = document.createElement("p");
+odstavec.innerText = "odstavec";
+document.querySelector("#spz").appendChild(odstavec)
